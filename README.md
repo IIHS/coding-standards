@@ -1,4 +1,4 @@
-# Pug Coding Standards
+# Javascript Coding Standards
 
 A shareable configuration package for [ESLint](http://eslint.org/)
 
