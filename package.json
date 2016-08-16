@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "sass-config-iihs",
+  "version": "1.0.0",
+  "description": "A configuration for sass-lint",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://iihs.visualstudio.com/DefaultCollection/IIHS/_git/coding-standards"
+  },
+  "keywords": [
+    "sasslint",
+    "sasslintconfig"
+  ],
+  "author": "IIHS",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "yamljs": "^0.2.8"
+  }
+}
