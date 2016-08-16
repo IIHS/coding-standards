@@ -1,4 +1,4 @@
-# Javascript Coding Standards
+# JavaScript Coding Standards
 
 A shareable configuration package for [ESLint](http://eslint.org/)
 
