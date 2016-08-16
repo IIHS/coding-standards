@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "iihs-pug-coding-standards",
+    "name": "pug-lint-config-iihs",
     "version": "1.0.0",
     "description": "A configuration for pug-lint",
     "main": "index.js",
