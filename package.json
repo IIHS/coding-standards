@@ -1,0 +1,17 @@
+{
+    "private": true,
+    "name": "iihs-pug-coding-standards",
+    "version": "1.0.0",
+    "description": "A configuration for pug-lint",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://iihs.visualstudio.com/DefaultCollection/IIHS/_git/coding-standards"
+    },
+    "keywords": [
+        "puglint",
+        "puglintconfig"
+    ],
+    "author": "IIHS",
+    "license": "UNLICENSED"
+}
