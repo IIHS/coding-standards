@@ -34,15 +34,15 @@ module.exports = {
     requireSpaceAfterCodeOperator: true,
     requireSpacesInsideAttributeBrackets: null,
     requireSpecificAttributes: [{
-        a: "href"
+        "a": "href"
     },{
-        form: "action"
+        "form": "action"
     }, {
-        img: "alt"
+        "img": "alt"
     }, {
-        input: "type"
+        "input": "type"
     }, {
-        input[type=submit]: "value"
+        "input[type=submit]": "value"
     }],
     requireStrictEqualityOperators: true,
     validateAttributeQuoteMarks: "\"",
