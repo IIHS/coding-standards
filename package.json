@@ -15,6 +15,7 @@
   "author": "IIHS",
   "license": "UNLICENSED",
   "dependencies": {
+    "path": "^0.12.7",
     "yamljs": "^0.2.8"
   }
 }
