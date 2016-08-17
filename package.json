@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "sass-config-iihs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A configuration for sass-lint",
   "main": "index.js",
   "repository": {
