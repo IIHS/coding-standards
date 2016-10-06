@@ -20,7 +20,7 @@ import tsLintConfigIIHS from "tslint-config-iihs";
 
 export const lintTs = () => {
     return gulp.src(["src/**/*.ts", "typings/**/*.ts"])
-        .pipe(tsLint(tsConfigIIHS()))
+        .pipe(tsLint(tsLintConfigIIHS()))
         .pipe(tsLint.report())
 ```
 
