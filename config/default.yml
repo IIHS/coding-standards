@@ -27,3 +27,5 @@ rules:
         - 0
     nesting-depth:
         - 0
+    property-sort-order:
+        - 0
