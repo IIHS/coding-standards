@@ -24,6 +24,8 @@ export const lintTs = () => {
         .pipe(tsLint.report())
 ```
 
+### From the command line (using `tslint.json`)
+
 If you need to access the `tslint.json` config file directly, for example in your VSCode settings, it's there in the
 npm package folder. Here's a sample `settings.json` file for VSCode:
 ```json
@@ -35,6 +37,8 @@ npm package folder. Here's a sample `settings.json` file for VSCode:
     "tslint.configFile": "node_modules/tslint-config-iihs/tslint.json"
 }
 ```
+
+## Extending the IIHS standards
 
 By default, the IIHS TSLint coding standard follows the 
 [TSLint "recommended" standard](https://github.com/palantir/tslint/tree/master/src/configs).
