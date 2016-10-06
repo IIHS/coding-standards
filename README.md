@@ -1,4 +1,4 @@
-# JavaScript Coding Standards
+# TypeScript Coding Standards
 
 A shareable configuration package for [TSLint](https://github.com/palantir/tslint)
 
