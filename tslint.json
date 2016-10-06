@@ -7,6 +7,7 @@
             "public-before-private",
             "static-before-instance",
             "variables-before-functions"
-        ]
+        ],
+        "trailing-comma": false
     }
 }
