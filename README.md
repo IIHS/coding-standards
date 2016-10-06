@@ -1,29 +1,27 @@
 # JavaScript Coding Standards
 
-A shareable configuration package for [ESLint](http://eslint.org/)
+A shareable configuration package for [TSLint](https://github.com/palantir/tslint)
 
 ## Installation
 
 ```shell
-$ npm install --save-dev IIHS/coding-standards#javascript
+$ npm install --save-dev IIHS/coding-standards#typescript
 ```
 
 ## Usage
 
-Simply configure your ESLint [configuration file](http://eslint.org/docs/user-guide/configuring) to extend the IIHS ESLint coding standard.
+By default, the IIHS TSLint coding standard follows the 
+[TSLint "recommended" standard](https://github.com/palantir/tslint/tree/master/src/configs).
+
+To extend the IIHS TSLint standard, simply configure your TSLint [configuration file](https://github.com/palantir/tslint#configuration) to
+extend it:
 
 ```json
 {
     "extends": "iihs",
-    "setting to override": null
-}
-```
-
-If you do not want the default IIHS ESLint configuration, you can pick a particular configuration file.
-
-```json
-{
-    "extends": "iihs/es6",
-    "setting to override": null
+    "rules": {
+        "no-errors": true,
+        "no-addition": false
+    }
 }
 ```

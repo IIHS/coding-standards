@@ -1,16 +1,16 @@
 {
     "private": true,
-    "name": "eslint-config-iihs",
+    "name": "tslint-config-iihs",
     "version": "1.0.0",
-    "description": "A configuration for ESLint",
-    "main": "es6.js",
+    "description": "A configuration for TSLint",
+    "main": "tslint.js",
     "repository": {
         "type": "git",
         "url": "https://iihs.visualstudio.com/DefaultCollection/IIHS/_git/coding-standards"
     },
     "keywords": [
-        "eslint",
-        "eslintconfig"
+        "tslint",
+        "tslintconfig"
     ],
     "author": "IIHS",
     "license": "UNLICENSED"
